@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Email finder",
+    "description":"Click on to scrap all emails in the actual tab",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://*/*"
+    ],
+    "permissions": [
+        "activeTab",
+        "scripting"
+      ],
+    "background": {
+        "service_worker": "js/background.js"
+    }
+  }
