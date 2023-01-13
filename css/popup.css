@@ -1,69 +1,77 @@
-body {
-    font-family: sans-serif;
-    text-align: center;
-    padding: 20px;
-    font-size: 16px;
-    width: 88vw;
-    margin: 0 auto;
-    background-color: rgb(102, 102, 102);
-    color: white;
-  }
+body 
+{
+  font-family: Georgia, serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  width: 88vw;
+  margin: 0 auto;
+  background-color: rgb(102, 102, 102);
+  color: white;
+}
   
-  h2 {
-    font-size: 24px;
-    font-weight: bolder;
-    user-select: none;
-  }
-
-  ul {
-    background-color: rgba(255, 255, 255, 0.1);
-    text-align: center;
-    padding: 0px;
-    color: rgba(255, 255, 255, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-style: dashed;
-    padding: 10px;
-  }
-
-  ul:hover {
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.2);
-    border-style: dashed;
-    transition: .5s;
-    transform: scale(1.001);
-  }
-  
-  li {
-    font-family: sans-serif;
-    text-align: center;
-    padding: 5px;
-    font-size: 16px;
-    width: 90vw;
-    margin: 0 auto;
-    display: block;
-    position: relative;
-  }
-
-  li::selection {
-    background: white;
-    color: rgb(102, 102, 102);
+h2 
+{
+  font-size: 24px;
+  font-weight: bolder;
+  user-select: none;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.4);
 }
 
-  button {
-    background-color: transparent;
-    border-radius: 7.5px;
-    border-color: white;
-    color: white;
-    margin: 15px;
-    transition: 1s;
-    padding: 5px;
-    font-size: 12px;
-  }
+ul 
+{
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-style: dashed;
+  padding: 10px;
+}
 
-  button:hover {
-    background-color: white;
-    color: rgb(102, 102, 102);
-    border: none;
-    transform: scale(1.1);
-  }
+ul:hover 
+{
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-style: dashed;
+  transition: .5s;
+  transform: scale(1.001);
+}
+
+li 
+{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  width: 90vw;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+li::selection 
+{
+  background: white;
+  color: rgb(102, 102, 102);
+}
+
+button 
+{
+  background-color: transparent;
+  border-radius: 7.5px;
+  border-color: white;
+  color: white;
+  margin: 15px;
+  transition: 1s;
+  padding: 5px;
+  font-size: 12px;
+}
+
+button:hover 
+{
+  background-color: white;
+  color: rgb(102, 102, 102);
+  border: none;
+  transform: scale(1.1);
+}
