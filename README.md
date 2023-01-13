@@ -20,3 +20,8 @@ This extension allows you to quickly and easily find all email addresses on any 
 **Added how many emails were scraped**
 
 ![emailFinder](https://user-images.githubusercontent.com/104428151/212377381-d0e81664-12c0-4016-a25b-d0043373493c.png)
+
+## Contributor
+
+
+[Victor Castrillo](https://github.com/CastrilloRedondoVictor)
