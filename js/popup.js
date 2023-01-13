@@ -20,6 +20,9 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         });
         document.body.appendChild(emailList);
 
+        //Set count of emails scrapped
+        chrome.action.setBadgeText({text: (Object.keys(emails).length).toString()});
+
         button.addEventListener("click", ()=>{
             const listItems = emailList.innerText;
             navigator.clipboard.writeText(listItems).then(() => {
